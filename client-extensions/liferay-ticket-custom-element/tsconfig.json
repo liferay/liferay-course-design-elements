@@ -15,6 +15,9 @@
 		"moduleResolution": "node",
 		"noEmit": true,
 		"noFallthroughCasesInSwitch": true,
+		"paths": {
+		   "react": [ "./node_modules/@types/react" ]
+		 },
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"strict": true,
