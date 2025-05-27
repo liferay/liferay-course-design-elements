@@ -3,8 +3,6 @@ assemble:
       into: static/img
     - from: assets
       into: static
-    - from: build/static
-      into: static
 clarity-theme:
     clayURL: css/clay.css
     mainURL: css/main.css
@@ -22,7 +20,3 @@ clarity-theme-favicon-light:
     name: Clarity Theme Favicon Light
     type: themeFavicon
     url: clarity-favicon-light.svg
-clarity-global-js:
-    name: Clarity Global JS
-    type: globalJS
-    url: global.*.js
