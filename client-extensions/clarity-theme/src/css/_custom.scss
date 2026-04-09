@@ -12,7 +12,7 @@ a {
 }
 
 li.lfr-nav-item.open {
-    padding-bottom: 0.85rem;
+    /*padding-bottom: 0.85rem;*/
 }
 
 li.lfr-nav-item.open > a {
@@ -110,4 +110,35 @@ button.facet-clear-btn > strong {
     .navbar-blank.navbar-nav.navbar-site {
         justify-content: center;
     }
+}
+
+div.fds {
+    .data-set.data-set-stacked .management-bar-wrapper {
+        border-width: 0;
+    }
+
+    .management-bar-wrapper {
+        border-bottom-width: 0;
+    }
+}
+
+nav.management-bar-light {
+    background-color: var(--color-brand-primary);
+    color: var(--color-action-neutral-inverted);
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    .navbar-nav .nav-link {
+        color: var(--color-action-neutral-inverted);
+    }
+    .navbar-overlay {
+        background-color: transparent;
+    }
+}
+
+div.account-selector-dropdown-menu {
+    max-height: 29.65rem !important;
+}
+
+.custom-control-label {
+    vertical-align: text-bottom;
 }
